@@ -22,7 +22,10 @@
             <h1 class="post-title">{{title}}</h1>
             <section class="post-meta">
                 <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time> 
-                <span class="tag">{{tags}}</span>
+                {{#foreach tags}}
+                    <span class="tag"><a href="/tag/{{slug}}">{{name}}</a></span>
+                {{/foreach}}
+                {{!--<span class="tag">{{tags}}</span>--}}
             </section>
         </header>
 

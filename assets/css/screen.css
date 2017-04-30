@@ -1042,8 +1042,7 @@ body.page-template .post-title {
 }
 
 .tag {
-    padding: 0 0.3em;
-    margin: 0.3em;
+    padding: 0 0.4em;
     background-color: #e1ecf4;
 }
 
@@ -1118,11 +1117,6 @@ body.page-template .post-title {
 .post-template .post-title,
 .page-template .post-title {
     margin-bottom: 0;
-}
-
-.post-template .post-meta,
-.page-template .post-meta {
-    margin: 0;
 }
 
 .post-template .post-date,
