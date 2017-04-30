@@ -966,7 +966,7 @@ body.nav-opened .nav {
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
-.post {
+.post, #tagCloud{
     position: relative;
     width: 80%;
     max-width: 710px;
@@ -1966,7 +1966,7 @@ body.page-template .post-title {
         margin: 2rem auto;
     }
 
-    .post {
+    .post, #tagCloud{
         width: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -2219,8 +2219,18 @@ body.page-template .post-title {
                 transform: translateY(-5px) rotate(-90deg);
     }
 }
+    
 
 
+.tag {
+    padding: 0 0.3em;
+    margin: 0.3em;
+    background-color: #e1ecf4;
+}
+
+.tag a{
+    color: #39739d;
+}
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
